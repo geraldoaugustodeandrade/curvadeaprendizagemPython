@@ -1,3 +1,6 @@
+#Criação de um conta financeiro que requer nome, titulo, cpf, banco e que faz transaçoes simples de deposito, saque e alteração de limites. toda projetada em orientação a objetos. 
+ps:curvadeaprendizagem
+
 class Conta:
     def __init__(self,numero, titular, saldo, limite):
         print("construindo um objeto... {}".format(self))
